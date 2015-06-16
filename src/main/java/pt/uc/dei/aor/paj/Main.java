@@ -14,17 +14,17 @@ public class Main {
 	public static void main(String[] args) throws TransformerException {
 
 	    StreamSource xlsStreamSource = new StreamSource(Paths
-	            .get("books.xslt")
+	            .get("jornal.xslt")
 	            .toAbsolutePath().toFile());
 
 	    StreamSource xmlStreamSource = new StreamSource(Paths
-	            .get("books.xml")
+	            .get("jornal.xml")
 	            .toAbsolutePath().toFile());
 
 	    TransformerFactory transformerFactory = TransformerFactory.newInstance(
 	            "org.apache.xalan.processor.TransformerFactoryImpl", null);
 
-	    Path pathToHtmlFile = Paths.get("myfile.html");
+	    Path pathToHtmlFile = Paths.get("jornal.html");
 	    StreamResult result = new StreamResult(pathToHtmlFile.toFile());
 
 	    Transformer transformer = transformerFactory.newTransformer(xlsStreamSource);
