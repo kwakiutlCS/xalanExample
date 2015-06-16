@@ -18,9 +18,11 @@ import javax.naming.NamingException;
 
 
 
+
 //import javax.swing.text.Document;
 import org.w3c.dom.Document;
 
+import javax.xml.XMLConstants;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.transform.OutputKeys;
@@ -31,9 +33,13 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
+import javax.xml.validation.Schema;
+import javax.xml.validation.SchemaFactory;
+import javax.xml.validation.Validator;
 
 import org.w3c.dom.Node;
 import org.xml.sax.InputSource;
+import org.xml.sax.SAXException;
 
 
 public class Subscriber implements MessageListener {
@@ -62,17 +68,34 @@ public class Subscriber implements MessageListener {
 	private static void loadXMLFromString(String xml) throws Exception {
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder builder = factory.newDocumentBuilder();
-		Document doc = (Document) builder.parse(new InputSource(new StringReader(xml)));
+		Document doc = builder.parse(new InputSource(new StringReader(xml)));
 
 		// Write the parsed document to an xml file
 		TransformerFactory transformerFactory = TransformerFactory.newInstance();
 		Transformer transformer = transformerFactory.newTransformer();
-		DOMSource source = new DOMSource((Node) doc);
+		DOMSource source = new DOMSource(doc);
 
 		StreamResult result =  new StreamResult(new File("jornal.xml"));
 		transformer.transform(source, result);
+		
+		try {
+			validateXml();
+		}
+		catch(SAXException | IOException e) {
+			// mensagem logger
+			return;
+		}
 		generateHTML();
 	}
+
+	private static void validateXml() throws SAXException, IOException {
+		SchemaFactory factory = 
+					SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
+			Schema schema = factory.newSchema(new File("jornal.xsd"));
+			Validator validator = schema.newValidator();
+			validator.validate(new StreamSource(new File("jornal.xml")));
+	}
+
 
 	private void launch_and_wait() {
 		try (JMSContext jcontext = cf.createContext("mr", "mr2015");) {
@@ -95,6 +118,7 @@ public class Subscriber implements MessageListener {
 		    StreamSource xmlStreamSource = new StreamSource(Paths
 		            .get("jornal.xml")
 		            .toAbsolutePath().toFile());
+		    
 
 		    TransformerFactory transformerFactory = TransformerFactory.newInstance(
 		            "org.apache.xalan.processor.TransformerFactoryImpl", null);
