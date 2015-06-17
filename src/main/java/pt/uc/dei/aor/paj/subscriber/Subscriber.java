@@ -1,4 +1,5 @@
 package pt.uc.dei.aor.paj.subscriber;
+
 import java.io.File;
 import java.io.IOException;
 import java.io.StringReader;
@@ -16,15 +17,15 @@ import javax.jms.Topic;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
 
-
-
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 //import javax.swing.text.Document;
 import org.w3c.dom.Document;
 
 import javax.xml.XMLConstants;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.OutputKeys;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerConfigurationException;
@@ -36,11 +37,14 @@ import javax.xml.transform.stream.StreamSource;
 import javax.xml.validation.Schema;
 import javax.xml.validation.SchemaFactory;
 import javax.xml.validation.Validator;
+
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
 
+
 public class Subscriber implements MessageListener {
+	private static final Logger logger = LogManager.getLogger(Subscriber.class);
 	private ConnectionFactory cf;
 	private Topic topic;
 
@@ -53,7 +57,6 @@ public class Subscriber implements MessageListener {
 	@Override
 	public void onMessage(Message msg) {
 		TextMessage tmsg = (TextMessage) msg;
-		System.out.println("detecta mensagem");
 		try {
 			loadXMLFromString(tmsg.getText());
 
@@ -80,7 +83,7 @@ public class Subscriber implements MessageListener {
 			validateXml();
 		}
 		catch(SAXException | IOException e) {
-			// mensagem logger
+			logger.error("XML inválido. "+e.getMessage());
 			return;
 		}
 		generateHTML();
@@ -100,11 +103,13 @@ public class Subscriber implements MessageListener {
 			jcontext.setClientID("mr");
 			JMSConsumer consumer = jcontext.createDurableConsumer(topic,"mr");
 			consumer.setMessageListener(this);
-			System.out.println("Press enter to finish...");
-			System.in.read();
+			Thread.sleep(5000);
 
-		} catch (JMSRuntimeException | IOException re) {
+		} catch (JMSRuntimeException re) {
 			re.printStackTrace();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 	}
 	
