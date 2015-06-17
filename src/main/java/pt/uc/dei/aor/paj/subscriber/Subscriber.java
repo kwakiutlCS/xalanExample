@@ -19,7 +19,6 @@ import javax.naming.NamingException;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-//import javax.swing.text.Document;
 import org.w3c.dom.Document;
 
 import javax.xml.XMLConstants;
@@ -59,7 +58,6 @@ public class Subscriber implements MessageListener {
 		TextMessage tmsg = (TextMessage) msg;
 		try {
 			loadXMLFromString(tmsg.getText());
-
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
