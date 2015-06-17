@@ -25,8 +25,21 @@
 											<xsl:value-of select="author" />
 										</p>
 										<p>
-											<xsl:value-of select="date" />
-										</p>
+	<xsl:variable name="dt" select="date" />
+
+	<xsl:value-of
+		select="concat(
+                      substring($dt, 9, 2),
+                      '/',
+                      substring($dt, 6, 2),
+                      '/',
+                      substring($dt, 1, 4),
+                       '  ', 
+                      substring($dt, 12, 2),
+                      'h',
+                      substring($dt, 15, 2))" />
+
+</p>
 									</div>
 
 									
