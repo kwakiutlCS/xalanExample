@@ -19,8 +19,8 @@
 										<xsl:value-of select="author" />
 										<xsl:value-of select="date" />
 									</div>
-									<div style="display:inline-block">
-										<div style="display:inline-block">
+									<div style="display:inline-block;" >
+										<div style="display:inline-block; width: 25%; padding: 10px;">
 											<p>Resumo:</p>
 											<xsl:value-of select="highlights" />
 											<p>Imagem:</p>
@@ -34,7 +34,7 @@
 												<xsl:value-of select="caption" />
 											</xsl:for-each>
 										</div>
-										<div style="display:inline-block">
+										<div style="display:inline-block; width: 60%; padding: 10px;">
 											<xsl:value-of select="newstext" />
 										</div>
 									</div>
