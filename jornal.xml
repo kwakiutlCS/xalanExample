@@ -43,6 +43,45 @@ Journalist Eka Kadagishvili reported from Tbilisi, and Laura Smith-Spark wrote f
             </videoURLS>
         </noticia>
         <noticia>
+            <url>http://edition.cnn.com/2015/06/15/europe/freedom-project-misery-trail-children/index.html</url>
+            <titulo>How children are trafficked into Europe</titulo>
+            <highlights>CNN Freedom Project investigates human trafficking route from Africa to Europe</highlights>
+            <highlights>Some boys who made treacherous trip die; others wish they had never left home</highlights>
+            <highlights>Boys who found safety in Italy say there is an endless supply of other children dreaming of getting to Europe</highlights>
+            <date>2015-06-16T15:05:53Z</date>
+            <author>By Nima Elbagir, CNN</author>
+            <newstext>Sicily, Italy (CNN)The 13-year-old boy looks off into the distance. He is slight of build with pale, almost yellowy eyes. When you see him you feel as if he has seen far too much already.
+He is carrying a burden far too heavy for his age -- but despite his ordeal so far, smuggled across continents from Africa to Europe, and now living in a care home, his future could be far worse depending which route he takes next.
+A CNN investigation spent months retracing the smuggling route from Egypt to Italy. Speaking to social workers and authorities, children and parents, there is evidence that many of the children were smuggled into Italy by the same criminal networks, who once they are in country, use them for illegal activities.
+The Egyptian government agency charged with advising lawmakers on child protection matters told CNN that they believe in some cases the parents are guilty of trafficking, paying for their own vulnerable children to be smuggled so far from home in the hope of securing the family's future.
+We were interviewing this Egyptian boy and his friends in the picturesque piazza of a small Sicilian town.
+They came over to Italy together on an Egyptian smuggler ship. He was 12 at the time and crammed in with hundreds of others.
+He says his parents paid 35,000 Egyptian pounds (about $4,500) for the privilege, never guessing what it would really be like -- tossed around for nine days, surrounded by vomit, and scared, uncertain what would meet them on shore.
+I asked him what he would say to all the boys back at home, hoping to follow in his footsteps. He said he would warn them not to come but he also said he knew they wouldn't listen.
+"Why would they? I didn't," he says. "Everyone does what their mind tells them. They won't take what we say."
+I asked if, having suffered so much, he'd make the journey again? "What can I do? Yes. The burden back home is still the same."
+Italian authorities say he is one of more than 1,000 young Egyptians sheltered in 100 Italian care homes now dotting the Sicilian countryside.
+The cobbled streets and 17th Century architecture is a very long way from the Nile Delta villages many of the boys have come from.
+I asked one of his friends if he calls his parents and what he tells them about their lives here, and if he's told them how close to death he came.
+"I tell them nothing, just pleasantries and ask for their prayers. What difference would it make? They need me to make money."
+These boys tell us their parents went in to debt to raise the fare for their crossing. They saw it as an investment in what they hope will be a better future for the whole family. The children are expected to find work as soon as they can and start sending money home.
+Here at the care home, that's not possible so thousands of children are disappearing from the Italian social care networks.
+Italy's Ministry of Labor told us almost 4,000 Egyptian children disappeared from the care system.
+All the Italian authorities we spoke to who work with these children told us the pressure on the children would be unbearable even for an adult. They fear the consequences to their parents if the smugglers didn't get their money in full, or if the gamble doesn't pay off having sold what little of value they have.
+The missing children can't work legally. Social workers tell us that too often the children turn to drugs, even prostitution, to get by.
+Another boy we meet at the home asks me wistfully about Rome, which Italian authorities say is where so many of the disappeared head to.
+I told him Rome is dangerous for children on their own, especially on the streets. I told him the stories we'd heard from the Egyptian teenagers we'd met in Rome -- the exploitation and the homesickness.
+The Egyptian children in Rome tell stories of friends selling themselves on street corners -- but they sound suspiciously like they were speaking about themselves.
+I told him it's better to do it all the legal way and better for him to get an education.
+He listened politely until I'd finished then told me: "Better to be dead than useless."
+Dominique Van Heerden, Luca Muzi, Sara Sirgany and Mohamed Kazaz contributed to this report.
+</newstext>
+            <videoURLS>
+                <url>http://edition.cnn.com/videos/world/2015/06/15/elbagir-freedom-project-young-men-gone.cnn</url>
+                <caption>Where have all the young men gone? 05:00</caption>
+            </videoURLS>
+        </noticia>
+        <noticia>
             <url>http://edition.cnn.com/2015/06/16/europe/uk-syria-bradford-family/index.html</url>
             <titulo>Husbands of UK women feared to be in Syria plead for them to come home</titulo>
             <highlights>Husbands of missing women make tearful pleas for them to return</highlights>
@@ -94,43 +133,103 @@ CNN's Nic Robertson and Bharati Naik reported from Bradford, while Laura Smith-S
                 <caption>How ISIS recruits girls and women to jihad 06:10</caption>
             </videoURLS>
         </noticia>
+    </categoria>
+    <categoria tipo="middleeast">
         <noticia>
-            <url>http://edition.cnn.com/2015/06/15/europe/freedom-project-misery-trail-children/index.html</url>
-            <titulo>How children are trafficked into Europe</titulo>
-            <highlights>CNN Freedom Project investigates human trafficking route from Africa to Europe</highlights>
-            <highlights>Some boys who made treacherous trip die; others wish they had never left home</highlights>
-            <highlights>Boys who found safety in Italy say there is an endless supply of other children dreaming of getting to Europe</highlights>
-            <date>2015-06-16T15:05:53Z</date>
-            <author>By Nima Elbagir, CNN</author>
-            <newstext>Sicily, Italy (CNN)The 13-year-old boy looks off into the distance. He is slight of build with pale, almost yellowy eyes. When you see him you feel as if he has seen far too much already.
-He is carrying a burden far too heavy for his age -- but despite his ordeal so far, smuggled across continents from Africa to Europe, and now living in a care home, his future could be far worse depending which route he takes next.
-A CNN investigation spent months retracing the smuggling route from Egypt to Italy. Speaking to social workers and authorities, children and parents, there is evidence that many of the children were smuggled into Italy by the same criminal networks, who once they are in country, use them for illegal activities.
-The Egyptian government agency charged with advising lawmakers on child protection matters told CNN that they believe in some cases the parents are guilty of trafficking, paying for their own vulnerable children to be smuggled so far from home in the hope of securing the family's future.
-We were interviewing this Egyptian boy and his friends in the picturesque piazza of a small Sicilian town.
-They came over to Italy together on an Egyptian smuggler ship. He was 12 at the time and crammed in with hundreds of others.
-He says his parents paid 35,000 Egyptian pounds (about $4,500) for the privilege, never guessing what it would really be like -- tossed around for nine days, surrounded by vomit, and scared, uncertain what would meet them on shore.
-I asked him what he would say to all the boys back at home, hoping to follow in his footsteps. He said he would warn them not to come but he also said he knew they wouldn't listen.
-"Why would they? I didn't," he says. "Everyone does what their mind tells them. They won't take what we say."
-I asked if, having suffered so much, he'd make the journey again? "What can I do? Yes. The burden back home is still the same."
-Italian authorities say he is one of more than 1,000 young Egyptians sheltered in 100 Italian care homes now dotting the Sicilian countryside.
-The cobbled streets and 17th Century architecture is a very long way from the Nile Delta villages many of the boys have come from.
-I asked one of his friends if he calls his parents and what he tells them about their lives here, and if he's told them how close to death he came.
-"I tell them nothing, just pleasantries and ask for their prayers. What difference would it make? They need me to make money."
-These boys tell us their parents went in to debt to raise the fare for their crossing. They saw it as an investment in what they hope will be a better future for the whole family. The children are expected to find work as soon as they can and start sending money home.
-Here at the care home, that's not possible so thousands of children are disappearing from the Italian social care networks.
-Italy's Ministry of Labor told us almost 4,000 Egyptian children disappeared from the care system.
-All the Italian authorities we spoke to who work with these children told us the pressure on the children would be unbearable even for an adult. They fear the consequences to their parents if the smugglers didn't get their money in full, or if the gamble doesn't pay off having sold what little of value they have.
-The missing children can't work legally. Social workers tell us that too often the children turn to drugs, even prostitution, to get by.
-Another boy we meet at the home asks me wistfully about Rome, which Italian authorities say is where so many of the disappeared head to.
-I told him Rome is dangerous for children on their own, especially on the streets. I told him the stories we'd heard from the Egyptian teenagers we'd met in Rome -- the exploitation and the homesickness.
-The Egyptian children in Rome tell stories of friends selling themselves on street corners -- but they sound suspiciously like they were speaking about themselves.
-I told him it's better to do it all the legal way and better for him to get an education.
-He listened politely until I'd finished then told me: "Better to be dead than useless."
-Dominique Van Heerden, Luca Muzi, Sara Sirgany and Mohamed Kazaz contributed to this report.
+            <url>http://edition.cnn.com/2015/06/17/middleeast/british-family-missing-in-mideast/index.html</url>
+            <titulo>UK Police: Mother makes contact, suggests missing children are in Syria</titulo>
+            <highlights>Police have not yet said which mother made contact</highlights>
+            <highlights>Officials call the information that the family is in Syria "uncorroborated"</highlights>
+            <highlights>Police are very worried about the safety of the children</highlights>
+            <date>2015-06-17T13:48:01Z</date>
+            <author>By Don Melvin, CNN</author>
+            <newstext>London (CNN)A member of a British family that went missing last week in the Middle East has made contact, and police said Wednesday the information suggests the husbands' and fathers' worst fears may have been realized.
+The three women and their nine children between the ages of 3 and 15 may have entered Syria, authorities said.
+The extended family disappeared on a trip from Bradford, in northern England, to Saudi Arabia. They ceased all contact on June 9 and failed to return home on June 11, as expected.
+Police said that, instead, the mothers and children all boarded a plane for Turkey, which shares a border with Syria.
+
+The husbands of two of the women issued tearful televised pleas Tuesday for the return of their wives and children.
+But the contact from one of the mothers suggested that the family has crossed the border into Syria, police said. They did not say which mother got in touch, by what means, or whom in the UK she contacted.
+Police called the information that the family was now in Syria "uncorroborated."
+"We are extremely concerned for the safety of this family, especially the nine children," said West Yorkshire Police Assistant Chief Constable Russ Foster.
+
 </newstext>
             <videoURLS>
-                <url>http://edition.cnn.com/videos/world/2015/06/15/elbagir-freedom-project-young-men-gone.cnn</url>
-                <caption>Where have all the young men gone? 05:00</caption>
+                <url>http://edition.cnn.com/videos/world/2015/06/17/uk-family-goes-missing-robertson-pkg.cnn</url>
+                <caption>UK family goes missing during trip to Saudi Arabia 03:45</caption>
+            </videoURLS>
+        </noticia>
+        <noticia>
+            <url>http://edition.cnn.com/2015/06/16/middleeast/egypt-court-morsy-sentence/index.html</url>
+            <titulo>Egypt's Morsy: Death sentence upheld; life term in second case</titulo>
+            <highlights>Muslim Brotherhood asks for international help to end what it calls Gen. Abdel Fattah el-Sisi's "cruel dictatorship"</highlights>
+            <highlights>Ex-President Mohamed Morsy was sentenced last month for his role in 2011 prison break</highlights>
+            <highlights>Three other senior members of Muslim Brotherhood also sentenced to death</highlights>
+            <date>2015-06-16T14:41:24Z</date>
+            <author>By Ian Lee, Jethro Mullen and Eve Parish, CNN</author>
+            <newstext>Cairo (CNN)A court in Egypt upheld a death sentence Tuesday against former President Mohamed Morsy.
+Morsy, 63, was sentenced to death last month for his role in a 2011 prison break.
+Morsy, along with 16 other Muslim Brotherhood leaders, was also given a life sentence for espionage. Life in Egypt means 25 years.
+Three more senior members of the organization -- Khairat Al Shater, Mohamed Beltagy and Ahmed Abdel Alaty -- were sentenced to death by hanging.
+The political wing of the Muslim Brotherhood, the Freedom and Justice Party, called the decision "politicized" and the charges "fabricated."
+"President Morsy's trial has fallen far below the most basic international legal standards," a statement from the Muslim Brotherhood said. "Today's announcement is another nail in the coffin for democracy in Egypt."
+It called on the international community to stop what it called the "cruel dictatorship" of Gen. Abdel Fattah el-Sisi.
+The military ousted Morsy, Egypt's first democratically elected leader, in 2013.
+Opinion: The folly of Morsy's death sentence
+CNN's Ian Lee reported from Cairo, and Jethro Mullen wrote from Hong Kong. CNN's Sarah Sirgany contributed to this report.
+</newstext>
+            <videoURLS>
+                <url>http://edition.cnn.com/videos/world/2015/06/16/egypt-morsy-death-sentence-upheld-lee-lklv.cnn</url>
+                <caption>Egyptian court upholds Morsy death sentence 03:37</caption>
+            </videoURLS>
+        </noticia>
+        <noticia>
+            <url>http://edition.cnn.com/2015/06/09/middleeast/iraq-mosul-isis-takeover-anniversary/index.html</url>
+            <titulo>Iraqi veteran who fled Mosul a year ago: ISIS will never, ever leave my city</titulo>
+            <highlights>CNN's Ben Wedeman and his crew encounter an Iraqi who has seen it all -- war with Iran, invasion of Kuwait</highlights>
+            <highlights>Louay Hikmat Shawkat thinks ISIS is permanently entrenched in Mosul</highlights>
+            <highlights>Christian families tell CNN of the hardships they've suffered after being driven out of their beloved city</highlights>
+            <date>2015-06-10T12:25:21Z</date>
+            <author>By Ben Wedeman, CNN International Correspondent</author>
+            <newstext>Baghdad (CNN)We had just finished up our shoot in Al-Makasib Girls' Elementary School in Baghdad's Saadoun neighbourhood and were loading the gear into the car when a man sitting in a wheelchair across the courtyard beckoned to me.
+"Come, talk to me, too," he said.
+He introduced himself as Louay Hikmat Shawkat, Iraqi Army veteran of the war with Iran and then the 1991 Kuwait war, refugee from Mosul and a self-described translator of English, French, "Canadian" and "Yugoslavian."
+Given that the latter two aren't languages, and his English was a tad scratchy, I was intrigued.
+We were visiting the school to talk to its current "residents" -- 48 Christian families who had fled Mosul when ISIS took over a year ago. Mosul, in northern Iraq and one of the nation's largest cities, is about 405 kilometers (about 250 miles) from the capital of Baghdad. But for these internal refugees, it might as well be a world away.
+I asked Louay, who is 60, when he thought he might be able to return home.
+
+"Take it out of your mind that ISIS is going to leave Mosul," he insisted, gesturing with his hand as if he were pulling a thread out of his head.
+The chances he and his wife will someday return to their home in the Mosul suburb of Hamdaniya, he said, are "one in a hundred. One in a million!"
+Louay said he suffers from diabetes, but he insists on lighting up another cigarette in his nicotine-stained fingers "because I get upset whenever I speak about "Da'ish", the Arabic acronym for ISIS.
+ISIS, he said, "is an illness. It's impossible to cure. Cancer can be cured, tuberculosis can be cured. Almost every illness can be cured, but not this one."
+His diabetes causes him to suffer from dizziness whenever he stands up. "If I were well," he vows, "I would go fight them myself."
+Like everyone else I spoke with at the school, he is desperate to leave Iraq, but his attempts to apply for asylum have come to naught. His last hope, he told me with a mischievous grin, is an old Canadian girlfriend in Montreal.
+
+In the school's makeshift kitchen, I met Linda Jannan, who was busy with the washing up.
+She fled Mosul with her husband and three children in August, first going to Dohuk, in Iraqi Kurdistan, where they spent six months in a tent in a refugee camp.
+A thin women in her 30s with the dark circles under her eyes, she also was desperate to leave Iraq.
+"We are finished," she told me. "Our future, our children, our men have been destroyed. We're too afraid to go out and find work. If only someone outside Iraq will help us find a solution, let us emigrate. We have no hope left."
+She and her husband had applied to asylum in the United States and Germany, but they were rejected because they have no close relatives in either country.
+Obama: No 'complete strategy' yet on training Iraqis
+Over the past few months, these refugees have been visited by a variety of reporters. And it's clear their patience is wearing thin.
+"What's the point of all this talk?" one man asked me, after declining my request for an on-camera interview. "We talk, we talk, and nothing happens," he snapped.
+Firyal Abdel Kareem, who was sharing the kitchen with Linda Jannan, is at her wits' end. She spent the winter months in a windy tent in Zakho, near the Turkish border, and is now suffering from Baghdad's sweltering summer heat.
+"Find a solution for us," she told me, "it's enough. We are tired."
+"Either they take us out of here, or send us home. Do we have to stay in this school, or in a tent?"
+
+I've been covering Iraq since 1994. I covered the impact of the draconian international sanctions imposed on the country after Iraq's 1990 invasion of Kuwait. I covered the U.S.-led invasion in 2003 and the messy, bloody aftermath. And now I'm back covering the war against ISIS.
+I'm lucky. I come and go as I please. For the people in this school, there is no such luxury. Thair Al-Naim, his wife and their three young sons left behind a relatively comfortable life in Mosul last summer. He's now penniless and out of work, all his construction equipment seized and sold by ISIS.
+Speaking to him in the classroom they now call "home," I sense a deep weariness with a life that, for too long, has been fraught with violence and fear.
+"Since the fall of Saddam," he sighs, "all we've had is war after war, and now we have Da'ish."
+CNN's Hamdi Alkhshali contributed to this report.
+</newstext>
+            <videoURLS>
+                <url>http://edition.cnn.com/videos/world/2015/06/09/iraq-isis-mosul-anniversary-wedeman-pkg.cnn</url>
+                <caption>'Our future, our children, our men have been destroyed' 02:28</caption>
+            </videoURLS>
+            <videoURLS>
+                <url>http://edition.cnn.com/videos/world/2015/06/09/iraq-mosul-one-year-after-fall-isis-karadsheh-lok.cnn</url>
+                <caption>One year since Mosul fell to ISIS 02:16</caption>
             </videoURLS>
         </noticia>
     </categoria>
@@ -956,81 +1055,6 @@ CNN's Jason Morris contributed to this report.
             </image>
             <videoURLS>
                 <url>http://edition.cnn.com/videos/world/2015/05/19/erin-dnt-lavandera-namibia-black-rhino-hunt.cnn</url>
-            </videoURLS>
-        </noticia>
-    </categoria>
-    <categoria tipo="middleeast">
-        <noticia>
-            <url>http://edition.cnn.com/2015/06/16/middleeast/egypt-court-morsy-sentence/index.html</url>
-            <titulo>Egypt's Morsy: Death sentence upheld; life term in second case</titulo>
-            <highlights>Muslim Brotherhood asks for international help to end what it calls Gen. Abdel Fattah el-Sisi's "cruel dictatorship"</highlights>
-            <highlights>Ex-President Mohamed Morsy was sentenced last month for his role in 2011 prison break</highlights>
-            <highlights>Three other senior members of Muslim Brotherhood also sentenced to death</highlights>
-            <date>2015-06-16T14:41:24Z</date>
-            <author>By Ian Lee, Jethro Mullen and Eve Parish, CNN</author>
-            <newstext>Cairo (CNN)A court in Egypt upheld a death sentence Tuesday against former President Mohamed Morsy.
-Morsy, 63, was sentenced to death last month for his role in a 2011 prison break.
-Morsy, along with 16 other Muslim Brotherhood leaders, was also given a life sentence for espionage. Life in Egypt means 25 years.
-Three more senior members of the organization -- Khairat Al Shater, Mohamed Beltagy and Ahmed Abdel Alaty -- were sentenced to death by hanging.
-The political wing of the Muslim Brotherhood, the Freedom and Justice Party, called the decision "politicized" and the charges "fabricated."
-"President Morsy's trial has fallen far below the most basic international legal standards," a statement from the Muslim Brotherhood said. "Today's announcement is another nail in the coffin for democracy in Egypt."
-It called on the international community to stop what it called the "cruel dictatorship" of Gen. Abdel Fattah el-Sisi.
-The military ousted Morsy, Egypt's first democratically elected leader, in 2013.
-Opinion: The folly of Morsy's death sentence
-CNN's Ian Lee reported from Cairo, and Jethro Mullen wrote from Hong Kong. CNN's Sarah Sirgany contributed to this report.
-</newstext>
-            <videoURLS>
-                <url>http://edition.cnn.com/videos/world/2015/06/16/egypt-morsy-death-sentence-upheld-lee-lklv.cnn</url>
-                <caption>Egyptian court upholds Morsy death sentence 03:37</caption>
-            </videoURLS>
-        </noticia>
-        <noticia>
-            <url>http://edition.cnn.com/2015/06/09/middleeast/iraq-mosul-isis-takeover-anniversary/index.html</url>
-            <titulo>Iraqi veteran who fled Mosul a year ago: ISIS will never, ever leave my city</titulo>
-            <highlights>CNN's Ben Wedeman and his crew encounter an Iraqi who has seen it all -- war with Iran, invasion of Kuwait</highlights>
-            <highlights>Louay Hikmat Shawkat thinks ISIS is permanently entrenched in Mosul</highlights>
-            <highlights>Christian families tell CNN of the hardships they've suffered after being driven out of their beloved city</highlights>
-            <date>2015-06-10T12:25:21Z</date>
-            <author>By Ben Wedeman, CNN International Correspondent</author>
-            <newstext>Baghdad (CNN)We had just finished up our shoot in Al-Makasib Girls' Elementary School in Baghdad's Saadoun neighbourhood and were loading the gear into the car when a man sitting in a wheelchair across the courtyard beckoned to me.
-"Come, talk to me, too," he said.
-He introduced himself as Louay Hikmat Shawkat, Iraqi Army veteran of the war with Iran and then the 1991 Kuwait war, refugee from Mosul and a self-described translator of English, French, "Canadian" and "Yugoslavian."
-Given that the latter two aren't languages, and his English was a tad scratchy, I was intrigued.
-We were visiting the school to talk to its current "residents" -- 48 Christian families who had fled Mosul when ISIS took over a year ago. Mosul, in northern Iraq and one of the nation's largest cities, is about 405 kilometers (about 250 miles) from the capital of Baghdad. But for these internal refugees, it might as well be a world away.
-I asked Louay, who is 60, when he thought he might be able to return home.
-
-"Take it out of your mind that ISIS is going to leave Mosul," he insisted, gesturing with his hand as if he were pulling a thread out of his head.
-The chances he and his wife will someday return to their home in the Mosul suburb of Hamdaniya, he said, are "one in a hundred. One in a million!"
-Louay said he suffers from diabetes, but he insists on lighting up another cigarette in his nicotine-stained fingers "because I get upset whenever I speak about "Da'ish", the Arabic acronym for ISIS.
-ISIS, he said, "is an illness. It's impossible to cure. Cancer can be cured, tuberculosis can be cured. Almost every illness can be cured, but not this one."
-His diabetes causes him to suffer from dizziness whenever he stands up. "If I were well," he vows, "I would go fight them myself."
-Like everyone else I spoke with at the school, he is desperate to leave Iraq, but his attempts to apply for asylum have come to naught. His last hope, he told me with a mischievous grin, is an old Canadian girlfriend in Montreal.
-
-In the school's makeshift kitchen, I met Linda Jannan, who was busy with the washing up.
-She fled Mosul with her husband and three children in August, first going to Dohuk, in Iraqi Kurdistan, where they spent six months in a tent in a refugee camp.
-A thin women in her 30s with the dark circles under her eyes, she also was desperate to leave Iraq.
-"We are finished," she told me. "Our future, our children, our men have been destroyed. We're too afraid to go out and find work. If only someone outside Iraq will help us find a solution, let us emigrate. We have no hope left."
-She and her husband had applied to asylum in the United States and Germany, but they were rejected because they have no close relatives in either country.
-Obama: No 'complete strategy' yet on training Iraqis
-Over the past few months, these refugees have been visited by a variety of reporters. And it's clear their patience is wearing thin.
-"What's the point of all this talk?" one man asked me, after declining my request for an on-camera interview. "We talk, we talk, and nothing happens," he snapped.
-Firyal Abdel Kareem, who was sharing the kitchen with Linda Jannan, is at her wits' end. She spent the winter months in a windy tent in Zakho, near the Turkish border, and is now suffering from Baghdad's sweltering summer heat.
-"Find a solution for us," she told me, "it's enough. We are tired."
-"Either they take us out of here, or send us home. Do we have to stay in this school, or in a tent?"
-
-I've been covering Iraq since 1994. I covered the impact of the draconian international sanctions imposed on the country after Iraq's 1990 invasion of Kuwait. I covered the U.S.-led invasion in 2003 and the messy, bloody aftermath. And now I'm back covering the war against ISIS.
-I'm lucky. I come and go as I please. For the people in this school, there is no such luxury. Thair Al-Naim, his wife and their three young sons left behind a relatively comfortable life in Mosul last summer. He's now penniless and out of work, all his construction equipment seized and sold by ISIS.
-Speaking to him in the classroom they now call "home," I sense a deep weariness with a life that, for too long, has been fraught with violence and fear.
-"Since the fall of Saddam," he sighs, "all we've had is war after war, and now we have Da'ish."
-CNN's Hamdi Alkhshali contributed to this report.
-</newstext>
-            <videoURLS>
-                <url>http://edition.cnn.com/videos/world/2015/06/09/iraq-isis-mosul-anniversary-wedeman-pkg.cnn</url>
-                <caption>'Our future, our children, our men have been destroyed' 02:28</caption>
-            </videoURLS>
-            <videoURLS>
-                <url>http://edition.cnn.com/videos/world/2015/06/09/iraq-mosul-one-year-after-fall-isis-karadsheh-lok.cnn</url>
-                <caption>One year since Mosul fell to ISIS 02:16</caption>
             </videoURLS>
         </noticia>
     </categoria>
