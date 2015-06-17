@@ -4,7 +4,10 @@
 
 	<xsl:template match="/">
 		<html>
-			<body style="font-family:Verdana;">
+			<head>
+			<title>Noticias da CNN</title>
+			</head>
+			<body style="font-family:Verdana; min-width: 950px; background:black;">
 				<h1
 					style="text-align:center; color:blue; font-size:30px; font-weight:bolder;">JORNAL</h1>
 				<div class="container"
@@ -15,7 +18,7 @@
 								style="font-size:24px; font-weight:bolder; text-transform: capitalize; color: cornflowerblue;">
 								<xsl:value-of select="@tipo" />
 							</div>
-							<div style="border-style:solid; border-color:blue;">
+							<div style="border-style:solid; border-color:blue; background: white;">
 								<xsl:for-each select="noticia">
 									<div
 										style="padding-top:30px; border-top-color: grey; border-top-style:dotted;">
@@ -28,7 +31,8 @@
 										</p>
 										<p style="text-align: center; display: block;">
 											<xsl:variable name="dt" select="date" />
-											<xsl:value-of select="concat(
+											<xsl:value-of
+												select="concat(
                       											substring($dt, 9, 2),
                    													'/',
                     										  	substring($dt, 6, 2),
