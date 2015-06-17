@@ -26,16 +26,25 @@
 										<p style="text-align: center; display: block;">
 											<xsl:value-of select="author" />
 										</p>
-										<p style="text-align: center; display: block;">
-											<xsl:value-of select="date" />
+										<p>
+											<xsl:variable name="dt" select="date" />
+											<xsl:value-of select="concat(
+                      											substring($dt, 9, 2),
+                   													'/',
+                    										  	substring($dt, 6, 2),
+                      												'/',
+                      											substring($dt, 1, 4),
+                      												'  ', 
+                      											substring($dt, 12, 2),
+                      												'h',
+                      											substring($dt, 15, 2))" />
 										</p>
 									</div>
-
-
 									<div
 										style="display:inline-block; border-bottom-color: grey; border-bottom-style:dotted;">
 
-										<div style="display:inline-block; width: 25%; padding: 10px; text-align: vertical; vertical-align:top;">
+										<div
+											style="display:inline-block; width: 25%; padding: 10px; text-align: vertical; vertical-align:top;">
 
 											<p style="font-weight:bold;">Resumo:</p>
 											<xsl:for-each select="highlights">
@@ -46,7 +55,8 @@
 
 											<p>
 												<xsl:for-each select="image">
-													<img src="{url}" alt="Falha a carregar imagem!!" style="width:70%;  text-align: center; display: block; margin:auto;" />
+													<img src="{url}" alt="Falha a carregar imagem!!"
+														style="width:70%;  text-align: center; display: block; margin:auto;" />
 													<p style="font-size:9px">
 														<xsl:value-of select="caption" />
 													</p>

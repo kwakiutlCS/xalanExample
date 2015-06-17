@@ -59,7 +59,7 @@ public class Subscriber implements MessageListener {
 		try {
 			loadXMLFromString(tmsg.getText());
 		} catch (Exception e) {
-			e.printStackTrace();
+			logger.error("Erro criação ficheiro xml");
 		}
 	}
 
@@ -98,16 +98,15 @@ public class Subscriber implements MessageListener {
 
 	private void launch_and_wait() {
 		try (JMSContext jcontext = cf.createContext("mr", "mr2015");) {
-			jcontext.setClientID("mr");
-			JMSConsumer consumer = jcontext.createDurableConsumer(topic,"mr");
+			jcontext.setClientID("subscriberId");
+			JMSConsumer consumer = jcontext.createDurableConsumer(topic,"subscriberId");
 			consumer.setMessageListener(this);
 			Thread.sleep(5000);
 
 		} catch (JMSRuntimeException re) {
-			re.printStackTrace();
+			logger.error("Erro JMS indisponível");
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			logger.error("Erro JMS indisponível");
 		}
 	}
 	
@@ -131,16 +130,14 @@ public class Subscriber implements MessageListener {
 			try {
 				transformer = transformerFactory.newTransformer(xlsStreamSource);
 			} catch (TransformerConfigurationException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
+				logger.error("Erro na conversão html");
 			}
 		    transformer.setOutputProperty(OutputKeys.INDENT, "yes");
 		    transformer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "2");
 		    try {
 				transformer.transform(xmlStreamSource, result);
 			} catch (TransformerException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
+				logger.error("Erro na conversão html");
 			}
 
 	}
